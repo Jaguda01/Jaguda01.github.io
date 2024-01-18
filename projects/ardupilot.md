@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: https://ardupilot.org/images/ArduPilot-Motto.png
+image: https://media.istockphoto.com/id/1152444927/vector/drone-with-action-camera-quadcopter.jpg?s=612x612&w=0&k=20&c=mXiqyCieZoZVg9MMkkkqFoVWmvyGOkyJ7Hdq_zoqVlE=
 title: "Drone Simulation"
 date: 2023
 published: true
