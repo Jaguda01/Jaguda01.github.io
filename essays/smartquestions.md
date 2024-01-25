@@ -1,3 +1,14 @@
+---
+layout: essay
+type: essay
+title: "Asking Smart Questions"
+# All dates must be YYYY-MM-DD format!
+date: 2024-01-24
+published: true
+labels:
+  - Questions
+---
+
 # Smart Questions in Software Engineering: A StackOverflow Analysis
 
 ## Introduction
