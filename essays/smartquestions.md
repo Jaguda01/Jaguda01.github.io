@@ -17,7 +17,9 @@ Effective communication is paramount in software engineering, and asking questio
 # Section 1: Smart Question Example
 **Question Title**: [How to quick view tables in DataGrip?](https://stackoverflow.com/questions/38742700/how-to-quick-view-tables-in-datagrip)
 
-<img align="right" width="500px" class="rounded float-start pe-4" src="../img/smartquestion.png">
+<div align="center">
+  <img width="500px" class="rounded" src="../img/smartquestion.png" alt="Smart Question Image">
+</div>
 
 In accordance with Eric Raymond's principles, the question demonstrates several positive aspects:
 - **Clarity:** The user's question is clear and concise, describing a specific problem related to viewing tables in DataGrip.
