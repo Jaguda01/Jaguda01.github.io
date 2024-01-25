@@ -18,7 +18,7 @@ Effective communication is paramount in software engineering, and asking questio
 **Question Title**: [How to quick view tables in DataGrip?](https://stackoverflow.com/questions/38742700/how-to-quick-view-tables-in-datagrip)
 
 <div align="center">
-  <img width="500px" class="rounded" src="../img/smartquestion.png" alt="Smart Question Image">
+  <img width="700px" class="rounded" src="../img/smartquestion.png" alt="Smart Question Image">
 </div>
 
 In accordance with Eric Raymond's principles, the question demonstrates several positive aspects:
@@ -32,6 +32,11 @@ In accordance with Eric Raymond's principles, the question demonstrates several 
 Examining the responses to the smart question, we observe how they align with the benefits of asking questions in a smart way, as per Eric Raymond's principles:
 
 ## Answer 1 (moscas's answer):
+
+<div align="center">
+  <img width="700px" class="rounded" src="../img/smartanswer1.png" alt="Smart Question Image">
+</div>
+
 Positive Aspects:
 - **Comprehensive Solutions:** The answer provides multiple solutions to the user's problem, covering various scenarios and preferences.
 - **Clarity:** Each solution is explained clearly, making it easy for the user to understand and implement.
@@ -39,6 +44,11 @@ Positive Aspects:
 > Eric Raymond's Principle: "Be gentle. Problem-related stress can make people seem rude or stupid even when they're not."
 
 ## Answer 2 (mucio's answer):
+
+<div align="center">
+  <img width="700px" class="rounded" src="../img/smartanswer2.png" alt="Smart Question Image">
+</div>
+
 Positive Aspects:
 - **Quick Solution:** The answer suggests a quick solution to the problem, addressing the user's need for faster results.
 - **Clarity:** The solution is presented clearly and concisely.
@@ -46,6 +56,11 @@ Positive Aspects:
 > Eric Raymond's Principle: "Be gentle. Problem-related stress can make people seem rude or stupid even when they're not."
 
 ## Answer 3 (Ramin Melikov's answer):
+
+<div align="center">
+  <img width="700px" class="rounded" src="../img/smartanswer3.png" alt="Smart Question Image">
+</div>
+
 Positive Aspects:
 - **Direct Solution:** The answer provides a straightforward solution to the user's question.
 
