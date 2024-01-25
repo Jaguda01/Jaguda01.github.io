@@ -34,7 +34,7 @@ Examining the responses to the smart question, we observe how they align with th
 ## Answer 1 (moscas's answer):
 
 <div align="center">
-  <img width="700px" class="rounded" src="../img/smartanswer1.png" alt="Smart Question Image">
+  <img width="700px" class="rounded" src="../img/smartanswer1.png" alt="Smart Smart Answer Image">
 </div>
 
 Positive Aspects:
@@ -46,7 +46,7 @@ Positive Aspects:
 ## Answer 2 (mucio's answer):
 
 <div align="center">
-  <img width="700px" class="rounded" src="../img/smartanswer2.png" alt="Smart Question Image">
+  <img width="700px" class="rounded" src="../img/smartanswer2.png" alt="Smart Answer Image">
 </div>
 
 Positive Aspects:
@@ -58,7 +58,7 @@ Positive Aspects:
 ## Answer 3 (Ramin Melikov's answer):
 
 <div align="center">
-  <img width="700px" class="rounded" src="../img/smartanswer3.png" alt="Smart Question Image">
+  <img width="700px" class="rounded" src="../img/smartanswer3.png" alt="Smart Answer Image">
 </div>
 
 Positive Aspects:
@@ -71,6 +71,10 @@ The community's engagement and the quality of responses reflect the collaborativ
 
 ## Section 3: Not So Smart Question Example
 **Question Title**: [I want to clear an exam , help me anlaysing patterns](https://stackoverflow.com/questions/77877252/i-want-to-clear-an-exam-help-me-anlaysing-patterns)
+
+<div align="center">
+  <img width="700px" class="rounded" src="../img/notsmartquestion.png" alt="Not Smart Question Image">
+</div>
 
 **Summary:**
 The question revolves around the user's preparation for the JEE exam and their request for assistance in analyzing patterns and probabilities in previous year question papers. However, the question lacks specificity, providing vague criteria for analysis and making an overwhelming request for multiple aspects.
