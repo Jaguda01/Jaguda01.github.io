@@ -241,8 +241,6 @@ vehicle.mode = VehicleMode("RTL")
 
 time.sleep(5)
 print('Finished Final')
-final.py
-Displaying final.py.
 ```
 
 Here is the [Ardupilot Repository](https://github.com/Jaguda01/ardupilot) that I used to write my missions.
