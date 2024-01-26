@@ -23,6 +23,6 @@ Looking ahead, I firmly believe that software engineers are at the forefront of 
 My journey from a coding class at UC Riverside to the world of software engineering has been driven by a genuine passion for problem-solving, a love for coding languages like C, and a vision of contributing to the future through the creation of innovative and impactful applications.
 
 <div align="center">
-  <img width="300px" class="rounded" src="../img/rubiks.png" alt="Rubiks Cube Image">
+  <img width="300px" class="rounded" src="../img/rubiks.jpg" alt="Rubiks Cube Image">
 </div>
 
