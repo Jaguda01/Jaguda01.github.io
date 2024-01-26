@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/drone.jpg
+image: img/animalfarm.jpg
 title: "Animal Farm"
 date: 2023
 published: true
