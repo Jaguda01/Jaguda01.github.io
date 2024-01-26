@@ -11,7 +11,7 @@ labels:
 summary: "This is an object-oriented programming project built in CLion using C++. The idea is to build a farm with animals that have age, color, types, species, genders, ID numbers, and other traits"
 ---
 
-In the Spring 2023 semester, I enrolled in EE 205 with Professor Mark Nelson. Throughout the semester, we worked on a C++ Project on CLion in which we created a farm that sheltered animals. Common concepts that I gained significant experience in were Classes, constructors and destructors, singly linked-lists, testing using Boost.Test, virtual functions, method overriding, public vs. private vs. protected members, and inheritance. Unfortunately, the Github repository is now gone, but here is some sample code.
+In the Spring 2023 semester, I enrolled in EE 205 with Professor Mark Nelson. Throughout the semester, we worked on a C++ Project on CLion in which we created a farm that sheltered animals. Common concepts that I gained significant experience in were Classes, constructors and destructors, singly linked-lists, testing using Boost.Test, virtual functions, method overriding, public vs. private vs. protected members, and inheritance. Unfortunately, the Github repository is now gone, but here is some sample code for a general idea:
 
 ### Animal Class
 
@@ -103,5 +103,3 @@ int main() {
     return 0;
 }
 ```
-
-Feel free to adjust the Markdown content as needed for your documentation.
