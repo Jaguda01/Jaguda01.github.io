@@ -105,19 +105,23 @@ Let's finally take a look at some code with good coding standards.
 
 It looks like an entirely different function. In this version, the function and variable names are descriptive, adhering to the camelCase naming convention. There is now proper indentation and spacing to enhance its readability. Comments could be added for further clarity, but even without them, the code is significantly easier to understand compared to the original mess in section 1. Most importantly, if another programmer were to pick up this code and modify it, they would have no problems understanding the functions purpose, showing the importance of coding standards when collaborating with a team.
 
+<br/>
+
 ## Section 4: Thoughts on ESLint in IntelliJ
   So far, ESLint has treated me well. It is very easy to correct coding standard mistakes, as a quick hover over the mistake and a click on the 'Quick-Fix' option will typically get rid of the warning. There are some warning that don't have quick-fixes, but they still have a description of what is wrong. Getting a green checkmark has been no problem at all, and sometimes the errors picked out by ESLint fix the functionality of the code. Some of the class coding standards feel a bit unnecessary, such as single-quotes, two space indents, and no multiple spaces seem unnecessary, but some optimize file size, which can be helpful when dealing with large files. ESLint so far has led to an easy debugging experience despite some of the class coding standards being somewhat trivial, and I look forward to seeing what it has to suggest for me next.
+
+<br/>
 
 Unless it looks like this:
 <div align="center">
   <img width="700px" class="rounded" src="../img/weirdwarning.png" alt="Weird warning">
 </div>
 
-
+<br/>
 
 ## Conclusion
 Coding standards serve as the cornerstone of software engineering, transforming chaotic code into coherent solutions. Embracing these standards not only enhances collaboration and maintainability but also fosters a culture of excellence within development teams. So, the next time you encounter coding standards, remember their power to bring order to the chaos and clarity to the code.
 
-
+<br/>
 
 ChatGPT was used for this essay to provide the example code snippets.
