@@ -7,6 +7,8 @@ date: 2024-02-08
 published: true
 labels:
   - Coding Standards
+  - JavaScript
+  - Learning
 ---
 
 <style>
