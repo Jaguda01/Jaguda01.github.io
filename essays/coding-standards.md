@@ -9,6 +9,13 @@ labels:
   - Coding Standards
 ---
 
+pre code {
+  background-color: #eee;
+  border: 1px solid #999;
+  display: block;
+  padding: 20px;
+}
+
 ## Introduction
   To many, coding standards are nothing but mundane rules getting in the way of one's creative coding mind. 
 
@@ -23,8 +30,11 @@ labels:
 ## Section 1: Chaos
   Take a few moments to figure out what the following function f() does:
   
-<code>function f(a){let r=0;for(let i=0;i<a.length;i++){r+=a[i];}if(r>10){console.log("r>10");}else{console.log("r<=10");}}let arr=[1,2,3,4,5];f(arr);
+<pre>
+  <code>
+  function f(a){let r=0;for(let i=0;i<a.length;i++){r+=a[i];}if(r>10){console.log("r>10");}else{console.log("r<=10");}}let arr=[1,2,3,4,5];f(arr);
 </code>
+</pre>  
 
   One of five things should be true now that you are reading this:
   1. You skipped over the code (or even my whole intro)
@@ -33,63 +43,67 @@ labels:
   4. You are a genius who got it right and have no business reading this essay
   5. You asked ChatGPT
 
+<p>
   This is a valid and working function, so why is the code so hard to decipher? Including newlines may not be considered to some as a coding standard, but I would argue it is so engrained into coding culture that it is part of some unspoken universal coding standard. These standards are expected because they make the code <span style="color:gold"> **readable**</span>, which is the golden word when it comes to the importance coding standards.
-
+</p>
+  
 ## Section 2: Clutter
   Here is the same code from the previous section, but with newlines.
 
-<code>function f(a) {
-    let r = 0;
-    for (let i = 0; i < a.length; i++) {
-        r += a[i];
+<pre>
+  <code>
+    function f(a) {
+      let r = 0;
+        for (let i = 0; i < a.length; i++) {
+          r += a[i];
+        }
+        if (r > 10) {
+          console.log("r>10");
+        } else {
+          console.log("r<=10");
+        }
     }
-    if (r > 10) {
-        console.log("r>10");
-    } else {
-        console.log("r<=10");
+    let arr = [1, 2, 3, 4, 5];
+    f(arr);
+  </code>
+</pre>
+
+<p>
+  We are now approaching readability, but the code is missing another factor that makes good coding standards; it is not <span style="color:silver"> **learnable**</span>. Here we can see generally what is going on, but because of the lack of naming convention, we have no context to the actual purpose of the function. Naming convention is one of the first aspects of coding standard that is emphasized in coding classrooms. Why? Because the goal in the classroom is to learn.
+</p>
+
+## Section 3: Clarity
+Let's finally take a look at some code with good coding standards.
+
+<pre>
+  <code>
+    function calculateSum(array) {
+      let sum = 0;
+      for (let i = 0; i < array.length; i++) {
+        sum += array[i];
+      }
+    
+      if (sum > 10) {
+        console.log("Sum is greater than 10");
+      } else {
+        console.log("Sum is less than or equal to 10");
+      }
     }
-}
-let arr = [1, 2, 3, 4, 5];
-f(arr);
 
-</code>
+    let numbers = [1, 2, 3, 4, 5];
+    calculateSum(numbers);
+  </code>
+</pre>
 
-We are now approaching readability, but the code is missing another factor that makes good coding standards; it is not <span style="color:silver"> **learnable**</span>.
+It looks like an entirely different function. In this version, the function and variable names are descriptive, adhering to the camelCase naming convention. There is now proper indentation and spacing to enhance its readability. Comments could be added for further clarity, but even without them, the code is significantly easier to understand compared to the original mess in section 1. Most importantly, if another programmer were to pick up this code and modify it, they would have no problems understanding the functions purpose, showing the importance of coding standards when collaborating with a team.
 
-## Section 3: Not So Smart Question Example
-**Question Title**: [I want to clear an exam , help me anlaysing patterns](https://stackoverflow.com/questions/77877252/i-want-to-clear-an-exam-help-me-anlaysing-patterns)
+## Section 4: Thoughts on ESLint in IntelliJ
+  So far, ESLint has treated me well. It is very easy to correct coding standard mistakes, as a quick hover over the mistake and a click on the 'Quick-Fix' option will typically get rid of the warning. There are some warning that don't have quick-fixes, but they still have a description of what is wrong. Getting a green checkmark has been no problem at all, and sometimes the errors picked out by ESLint fix the functionality of the code. Some of the class coding standards feel a bit unnecessary, such as single-quotes, two space indents, and no multiple spaces seem unnecessary, but some optimize file size, which can be helpful when dealing with large files. ESLint so far has led to an easy debugging experience despite some of the class coding standards being somewhat trivial, and I look forward to seeing what it has to suggest for me next.
 
+Unless it looks like this:
 <div align="center">
-  <img width="700px" class="rounded" src="../img/notsmartquestion.png" alt="Not Smart Question Image">
+  <img width="700px" class="rounded" src="../img/weirdwarning.png" alt="Weird warning">
 </div>
 
-**Summary:**
-The question revolves around the user's preparation for the JEE exam and their request for assistance in analyzing patterns and probabilities in previous year question papers. However, the question lacks specificity, providing vague criteria for analysis and making an overwhelming request for multiple aspects.
-
-**Analysis:**
-- **Vague and Broad Request:** The user's question is broad and lacks specific details about the desired patterns or trends, making it challenging for potential responders to provide targeted assistance.
-- **Limited Context:** While the user mentions a desire to analyze questions based on probability and identify patterns, the specific aspects or characteristics they are interested in are not clearly defined.
-- **Complex Request:** The question requests analysis on various aspects, such as identifying the likelihood of integers 1, 2, or 5, observing patterns in options, and seeking techniques for eliminating options. This complexity may discourage potential responders.
-
-> Eric Raymond's Principle: "If you can't get an answer, please don't take it personally that we don't feel we can help you. Sometimes the members of the asked group may simply not know the answer."
-
-**Why It Deviates:**
-The question deviates from smart questioning principles by being vague, lacking clarity on specific requirements, and presenting a complex and overwhelming request.
-
-## Section 4: Not So Smart Question Responses
-**Evaluation:**
-The question received no responses, indicating a lack of engagement from the community. The absence of adherence to smart questioning principles, such as clarity and specificity, may have influenced the quality of help received. Potential challenges in the interaction include:
-- **Lack of Clarity:** The question's vague nature might have deterred potential responders who could not discern the user's specific needs.
-- **Complex Request:** The overwhelming request for analyzing various aspects may have discouraged community members from investing time in providing a comprehensive response.
-- **Limited Expertise:** The specialized nature of the JEE exam and the need for expertise in probability analysis may have limited the pool of community members confident in addressing the user's requirements.
-
-In summary, the not-so-smart question's lack of clarity, complexity, and specialized nature may have contributed to its receiving no responses.
-
-
-## Section 5: Insights and Reflection
-**Insights:**
-- Smart questions, aligned with Raymond's principles, tend to receive comprehensive and efficient responses from the community.
-- Lack of clarity, complex requests, and bad grammar in questions may lead to a dearth of responses, limiting the effectiveness of community engagement.
-
 ## Conclusion
-As software engineers, the ability to pose smart questions is paramount in fostering productive interactions within the developer community. Raymond's principles provide a valuable framework for effective communication, ensuring that questions are clear, detailed, and presented with respect. The contrast between smart and not-so-smart questions on StackOverflow highlights the tangible impact of question quality on the quality of responses and community engagement. By internalizing these principles, software engineers can enhance their communication skills and contribute to a collaborative and supportive developer ecosystem.
+C oding standards serve as the cornerstone of software engineering, transforming chaotic code into coherent solutions. Embracing these standards not only enhances collaboration and maintainability but also fosters a culture of excellence within development teams. So, the next time you encounter coding standards, remember their power to bring order to the chaos and clarity to the code.
