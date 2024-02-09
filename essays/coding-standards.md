@@ -113,6 +113,8 @@ Unless it looks like this:
   <img width="700px" class="rounded" src="../img/weirdwarning.png" alt="Weird warning">
 </div>
 
+
+
 ## Conclusion
 Coding standards serve as the cornerstone of software engineering, transforming chaotic code into coherent solutions. Embracing these standards not only enhances collaboration and maintainability but also fosters a culture of excellence within development teams. So, the next time you encounter coding standards, remember their power to bring order to the chaos and clarity to the code.
 
