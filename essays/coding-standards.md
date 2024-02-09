@@ -9,12 +9,20 @@ labels:
   - Coding Standards
 ---
 
+<style>
+.hide-code {
+  display: none;
+}
+</style>
+
+<!--
 pre code {
   background-color: #eee;
   border: 1px solid #999;
   display: block;
   padding: 20px;
 }
+-->
 
 ## Introduction
   To many, coding standards are nothing but mundane rules getting in the way of one's creative coding mind. 
