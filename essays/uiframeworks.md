@@ -26,13 +26,13 @@ labels:
 
 <div class="row">
   <div class="col">
-    <img width="300px" class="rounded" src="../img/image_2024-02-22_185527081.png" alt="Original Form">
+    <img width="30%" class="rounded" src="../img/image_2024-02-22_185527081.png" alt="Original Form">
   </div>
   <div class="col">
-    <img width="300px" class="rounded" src="../img/image_2024-02-22_191248816.png" alt="CSS Form">
+    <img width="30%" class="rounded" src="../img/image_2024-02-22_191248816.png" alt="CSS Form">
   </div>
   <div class="col">
-    <img width="300px" class="rounded" src="../img/image_2024-02-22_191830572.png" alt="Bootstrap Form">
+    <img width="30%" class="rounded" src="../img/image_2024-02-22_191830572.png" alt="Bootstrap Form">
   </div>
 </div>
 
@@ -49,35 +49,35 @@ labels:
   </p>
 
 <div class="col">
-    <img width="300px" class="rounded" src="../img/image_2024-02-22_205805008.png" alt="Columns">
+    <img width="100%" class="rounded" src="../img/image_2024-02-22_205805008.png" alt="Columns">
   </div>
 
 <pre>
   <code>
-  <footer class="footer mt-auto py-3" id="bottomMenu">
-  <div class="container">
-    <div class="row">
-      <div class="col">
+  &lt;footer class=&quot;footer mt-auto py-3&quot; id=&quot;bottomMenu&quot;&gt;
+  &lt;div class=&quot;container&quot;&gt;
+    &lt;div class=&quot;row&quot;&gt;
+      &lt;div class=&quot;col&quot;&gt;
         Lunch
-        <hr/>
-        Monday - Friday: 11:00am - 2:30pm<br/>
+        &lt;hr/&gt;
+        Monday - Friday: 11:00am - 2:30pm&lt;br/&gt;
         Saturday - Sunday: Not open
-      </div>
-      <div class="col">
+      &lt;/div&gt;
+      &lt;div class=&quot;col&quot;&gt;
         Bar
-        <hr/>
-        Monday - Friday: From 11:00am to closing<br/>
+        &lt;hr/&gt;
+        Monday - Friday: From 11:00am to closing&lt;br/&gt;
         Saturday - Sunday: Not open
-      </div>
-      <div class="col">
+      &lt;/div&gt;
+      &lt;div class=&quot;col&quot;&gt;
         Dinner
-        <hr/>
-        Monday - Friday: 5:00pm - 9:00pm<br/>
+        &lt;hr/&gt;
+        Monday - Friday: 5:00pm - 9:00pm&lt;br/&gt;
         Saturday - Sunday: Not open
-      </div>
-    </div>
-  </div>
-</footer>
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;/footer&gt;
 </code>
 </pre>  
 
