@@ -40,7 +40,7 @@ labels:
 </div>
 
   <p>
-    Notice how the Bootstrap button is a different size and color. I was using a default Bootstrap button class called `btn-primary`. I tried for hours to replicate the button using purely Bootstrap elements, but to no avail. I checked if any of the default Bootstrap buttons have a color similar to the one I needed, and to my surprise, there were only 8 colors, and none of them matched the color I needed. In order to use a Bootstrap button, to achieve the look that I want, I had to customize it with CSS, which made me question the point of using Bootstrap elements when replicating a website. I've come to the realization that Bootstrap is more suited for creating websites from scratch, as prebuilt elements could save the user plenty of time. But if you want to achieve a specific design, using Bootstrap alone feels limited.
+    Notice how the Bootstrap button is a different size and color. I was using a default Bootstrap button class called ```btn-primary```. I tried for hours to replicate the button using purely Bootstrap elements, but to no avail. I checked if any of the default Bootstrap buttons have a color similar to the one I needed, and to my surprise, there were only 8 colors, and none of them matched the color I needed. In order to use a Bootstrap button, to achieve the look that I want, I had to customize it with CSS, which made me question the point of using Bootstrap elements when replicating a website. I've come to the realization that Bootstrap is more suited for creating websites from scratch, as prebuilt elements could save the user plenty of time. But if you want to achieve a specific design, using Bootstrap alone feels limited.
   </p>
         
   <h1>
@@ -48,7 +48,7 @@ labels:
   </h1>
 
   <p>
-    Where Bootstrap shines best is in the layout department. The most handy feature so far has been the grid system. Using `row` classes and `col` classes for `div`s made laying out the website more comprehensible. Placing elements directly next to each other is made easy using this system. 
+    Where Bootstrap shines best is in the layout department. The most handy feature so far has been the grid system. Using ```row``` classes and ```col``` classes for ```div```s made laying out the website more comprehensible. Placing elements directly next to each other is made easy using this system. 
   </p>
 
 <div class="col">
@@ -89,7 +89,7 @@ labels:
   </p>
 
 <p>
-  While customization is still dominated by CSS, formatting the website is made easier with Bootstrap. Other features, like `navbar`, `container-fluid`, and many more make formatting easier. If I ever need to use Bootstrap again, I'm excited to see what other formatting tools I can use. While writing this essay, I've come to realize that any grievances that I had with Bootstrap are really HTML's fault. I learned that Bootstrap and possibly other UI frameworks can help with the clutter of plain HTML, so I welcome any framework that attempts to help.
+  While customization is still dominated by CSS, formatting the website is made easier with Bootstrap. Other features, like ```navbar```, ```container-fluid```, and many more make formatting easier. If I ever need to use Bootstrap again, I'm excited to see what other formatting tools I can use. While writing this essay, I've come to realize that any grievances that I had with Bootstrap are really HTML's fault. I learned that Bootstrap and possibly other UI frameworks can help with the clutter of plain HTML, so I welcome any framework that attempts to help.
 </p>
 
 </body>
