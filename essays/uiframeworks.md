@@ -91,6 +91,3 @@ labels:
 <p>
   While customization is still dominated by CSS, formatting the website is made easier with Bootstrap. Other features, like <code>navbar</code>, <code>container-fluid</code>, and many more make formatting easier. If I ever need to use Bootstrap again, I'm excited to see what other formatting tools I can use. While writing this essay, I've come to realize that any grievances that I had with Bootstrap are really HTML's fault. I learned that Bootstrap and possibly other UI frameworks can help with the clutter of plain HTML, so I welcome any framework that attempts to help.
 </p>
-
-</body>
-</html>
