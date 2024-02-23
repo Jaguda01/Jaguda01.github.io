@@ -39,6 +39,8 @@ labels:
   </div>
 </div>
 
+<br>
+
   <p>
     Notice how the Bootstrap button is a different size and color. I was using a default Bootstrap button class called <code>btn-primary</code>. I tried for hours to replicate the button using purely Bootstrap elements, but to no avail. I checked if any of the default Bootstrap buttons have a color similar to the one I needed, and to my surprise, there were only 8 colors, and none of them matched the color I needed. In order to use a Bootstrap button, to achieve the look that I want, I had to customize it with CSS, which made me question the point of using Bootstrap elements when replicating a website. I've come to the realization that Bootstrap is more suited for creating websites from scratch, as prebuilt elements could save the user plenty of time. But if you want to achieve a specific design, using Bootstrap alone feels limited.
   </p>
