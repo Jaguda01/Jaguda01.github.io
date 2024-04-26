@@ -1,3 +1,16 @@
+---
+layout: essay
+type: essay
+title: "Design Patterns: Composing Code"
+# All dates must be YYYY-MM-DD format!
+date: 2024-04-25
+published: true
+labels:
+  - Design Patterns
+  - JavaScript
+  - Music
+---
+
 ## Harmonizing Code: Design Patterns in Software Development
 
 Software development is much like music composition — structured arrangements that guide the creation of harmonious code. Like composers, developers utilize design patterns to create software that shows elegance and efficiency. Let's explore how these patterns can help us orchestrate our code.
