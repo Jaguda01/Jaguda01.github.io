@@ -1,8 +1,8 @@
-### Harmonizing Code: Design Patterns in Software Development
+## Harmonizing Code: Design Patterns in Software Development
 
 Software development is much like music composition — structured arrangements that guide the creation of harmonious code. Like composers, developers utilize design patterns to create software that shows elegance and efficiency. Let's explore how these patterns can help us orchestrate our code.
 
-## The Composition of Design Patterns
+### The Composition of Design Patterns
 
 **Creational Patterns: Crafting the Melody**
 
@@ -47,7 +47,7 @@ const fetchRecipe = async () => {
 
 Reflecting on my coding journey, I've integrated design patterns into my projects, much like musical motifs are used in jazz solos.
 
-For instance, I employed the MVC (Model-View-Controller) pattern to separate data, presentation, and user interaction. This architecture streamlined development and maintenance, much like how a well-composed song balances melody, harmony, and rhythm.
+For instance, we employed the MVC (Model-View-Controller) pattern to separate data, presentation, and user interaction. This architecture streamlined development and maintenance, much like how a well-composed song balances melody, harmony, and rhythm.
 
 ```javascript
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
