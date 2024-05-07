@@ -11,6 +11,10 @@ labels:
   - Learning
 ---
 
+<div align="center">
+  <img width="500px" class="rounded" src="../img/aiimage.jpg" alt="AI">
+</div>
+
 ### I. Introduction
   AI is one of the most polarizing topics in today's education system. If you told me a semester ago that we wouldn't just be allowed to use AI in a coding class, but even encouraged, I would've had reservations about its impact on genuine learning and student engagement. I did my best to avoid using AI in this class, but desperate times sometimes called for desperate measures, leading me to fall back on ChatGPT as a crutch. While I did find AI useful at times, there were moments where it would lead me in circles and I would wonder if my time would have been better spent reading documentation, watching videos, or just asking a friend. While AI is a powerful tool in the context of a classroom, I believe it should be used with caution. Our brains get stronger from the weight of not understanding, and AI can lift this weight off our shoulders, making solving a problem far too easy. If someone relies too much on AI, there will be a time where it fails them, and they won't be prepared. It is important to find the balance between using AI to enhance our learning and making it do the work for us.
 
