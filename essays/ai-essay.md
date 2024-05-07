@@ -1,14 +1,14 @@
 ---
 layout: essay
 type: essay
-title: "Artificially Intelligent: Does AI help us learn?"
+title: "Artificially Intelligent? How AI Affects Learning"
 # All dates must be YYYY-MM-DD format!
 date: 2024-05-04
-published: false
+published: true
 labels:
   - AI
   - ChatGPT
-  - Learning?
+  - Learning
 ---
 
 ### I. Introduction
@@ -41,33 +41,40 @@ Here's how I have used AI in class this semester in the following areas:
   8. Asking or answering a smart-question\
   I followed the same logic here as when answering a question in class or in Discord.
 
-  9. Coding example e.g. “give an example of using Underscore .pluck”
+  9. Coding example e.g. “give an example of using Underscore .pluck”\
+  I didn't ask ChatGPT to give me coding examples unless it was for writing essays. Looking back, I could see this being useful for learning certain libraries like Underscore.
+
+  10. Explaining code\
+  This was useful whenever there were long blocks of code. ChatGPT did a good job at breaking the code down into digestible parts.
   
+  11. Writing code\
+  I've only asked ChatGPT to write code for the final project. It normally isn't totally right, so it was necessary for me to proofread the code.
+  
+  12. Documenting code\
+  I don't recall using AI for documenting code.
+  
+  13. Quality assurance\
+  If something went wrong in my code, I would ask ChatGPT to help with debugging.
 
-  10. Explaining code
-
-  11. Writing code
-
-  12. Documenting code
-
-  13. Quality assurance 
-
-  14. Other uses in ICS 314 not listed above
-
+  14. Other uses in ICS 314 not listed above\
+  I can't think of other uses that are not listed above.
 
 ### III. Impact on Learning and Understanding:
+My experience with AI in the classroom has been mixed in terms of its impact on learning and understanding. On one hand, AI has been a valuable resource for quickly clarifying concepts, providing coding examples, and breaking down complex code segments. The ability to receive explanations tailored to my level of understanding, such as asking ChatGPT to explain concepts as if I were a kindergartner, has been particularly beneficial. Additionally, AI has assisted in quality assurance by aiding in debugging code and providing alternative perspectives on problem-solving approaches.
 
+However, there are concerns regarding overreliance on AI leading to a reduction in genuine learning and critical thinking skills. There were instances where I found myself using AI as a shortcut rather than engaging in deeper exploration or problem-solving. This reliance on AI, especially in essay writing, may have hindered the development of my own voice and creativity. Furthermore, while AI can provide quick answers, it may not always foster a deeper understanding of underlying concepts or encourage independent exploration.
 
 ### IV. Practical Applications:
-
+The use of AI can be applied to many fields of coding outside of ICS 314. For people who have deep knowledge in their respective coding languages, AI can be used to deal with the tedious sides of coding. ChatGPT can give a sort of first draft of what a programmer wants to produce, then the programmer can proofread or modify the code to their liking. I could see myself using AI to change code to match my own coding style, making it easier for me to interpret.
 
 ### V. Challenges and Opportunities:
-
+While the incorporation of AI into the course has brought some benefits, it has also presented some challenges. One challenge is the risk of overreliance on AI, which may lead to a loss in critical thinking skills and independent problem-solving. I am also concerned about the accuracy and reliability of AI-generated solutions, especially for more complex problems. By promoting a balanced approach to learning and providing guidance on responsible AI usage, educators can help students leverage AI as a complementary tool to enhance their learning experience.
 
 ### VI. Comparative Analysis:
-
+Comparing my experience with AI to traditional learning methods highlights the advantages and limitations of both approaches. While AI provides quick access to information and assistance, it may lack the depth and nuance of human interaction. Traditional learning methods, on the other hand, emphasize active engagement, collaboration, and deeper exploration of concepts. A blended approach that combines the strengths of AI with traditional teaching methods may offer the most effective learning experience.
 
 ### VII. Future Considerations:
-
+For the future, it is important to continue exploring the potential of AI in education while addressing associated challenges. Educators should receive training in effectively integrating AI into the classroom and guiding students to ue AI responsibly. 
 
 ### VIII. Conclusion:
+AI has emerged as a powerful tool in education, offering various benefits in terms of accessibility, personalized learning, and efficiency, but we need to be careful to avoid the potential pitfalls and ensure that it complements rather than replaces traditional teaching methods. By responsibly embracing AI, educators can harness its potential to enhance learning and prepare students for success in an increasingly AI-driven world.
