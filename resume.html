@@ -8,17 +8,31 @@ layout: home
 
     <div class="row">
       <div class="col">
-        <h1 class="display-4 text-center">AGUDA J A</h1>
+        <h1 class="display-4 text-center">JASON AGUDA</h1>
       </div>
     </div>
 
     <div class="row">
       <div class="col">
-        <p class="mb-1">jaguda@hawaii.edu</p>
-        <p class="mb-1">(808) 462-1799</p>
+        {% capture url %}{{ site.data.bio.basics.website }}{% endcapture %}
+        {% capture label %}{{ site.data.bio.basics.website | remove: "http://" | remove: "https://" }}{% endcapture %}
+        <p class="mb-1">{% include about/social.html url=url name='house' label=label %} </p>
+
+        {% capture url %}mailto:{{ site.data.bio.basics.email }}{% endcapture %}
+        {% capture label %}{{ site.data.bio.basics.email }}{% endcapture %}
+        <p class="mb-1">{% include about/social.html url=url name='envelope' label=label %}</p>
+
+        {% for profile in site.data.bio.basics.profiles %}
+          {% capture url %}{{ profile.url }}{% endcapture %}
+          {% capture name %}{{ profile.network | downcase }}{% endcapture %}
+          {% capture label %}{{ profile.username }}{% endcapture %}
+          <p class="mb-1">{% include about/social.html url=url name=name label=label %}</p>
+        {% endfor %}
       </div>
       <div class="col">
-        <p class="mb-1 text-end">Aiea, Hawaii 96701</p>
+        <p class="mb-1 text-end">{{ site.data.bio.basics.location.address }}</p>
+        <p class="mb-1 text-end">{{ site.data.bio.basics.location.city }}, {{ site.data.bio.basics.location.region }} {{ site.data.bio.basics.location.postalCode }} {{ site.data.bio.basics.location.countryCode }}</p>
+        <p class="mb-1 text-end">{{ site.data.bio.basics.phone }}</p>
       </div>
     </div>
 
@@ -70,7 +84,7 @@ layout: home
             </ul>
           </div>
           <div class="col-3">
-            <p class="m-0 text-end">December 2024</p>
+            <p class="m-0 text-end">May 2025</p>
           </div>
         </div>
       </div>
@@ -82,6 +96,18 @@ layout: home
         <h1 class="display-6 text-start m-0">Work Experience</h1>
       </div>
       <div class="col-lg-9">
+        <div class="row mb-3">
+          <div class="col-9">
+            <p class="mb-0"><b>WiFi Security Project</b></p>
+            <p class="mb-0">Manoa, Hawaii</p>
+            <p class="mb-0">Conducted vulnerability assessments on various systems and networks.</p>
+            <p class="mb-0">Created detailed reports on findings from vulnerability assessments and penetration tests.</p>
+            <p class="mb-0">Wrote new code and refactored old code based on specifications from project manager.</p>
+          </div>
+          <div class="col-3">
+            <p class="m-0 text-end">January 2024 - May 2024</p>
+          </div>
+        </div>
         <div class="row mb-3">
           <div class="col-9">
             <p class="mb-0"><b>Network Security Project</b></p>
