@@ -8,238 +8,116 @@ layout: home
 
     <div class="row">
       <div class="col">
-        <h1 class="display-4 text-center">{{ site.data.bio.basics.name }}</h1>
+        <h1 class="display-4 text-center">AGUDA J A</h1>
       </div>
     </div>
 
     <div class="row">
       <div class="col">
-        {% capture url %}{{ site.data.bio.basics.website }}{% endcapture %}
-        {% capture label %}{{ site.data.bio.basics.website | remove: "http://" | remove: "https://" }}{% endcapture %}
-        <p class="mb-1">{% include about/social.html url=url name='house' label=label %} </p>
-
-        {% capture url %}mailto:{{ site.data.bio.basics.email }}{% endcapture %}
-        {% capture label %}{{ site.data.bio.basics.email }}{% endcapture %}
-        <p class="mb-1">{% include about/social.html url=url name='envelope' label=label %}</p>
-
-        {% for profile in site.data.bio.basics.profiles %}
-          {% capture url %}{{ profile.url }}{% endcapture %}
-          {% capture name %}{{ profile.network | downcase }}{% endcapture %}
-          {% capture label %}{{ profile.username }}{% endcapture %}
-          <p class="mb-1">{% include about/social.html url=url name=name label=label %}</p>
-        {% endfor %}
+        <p class="mb-1">jaguda@hawaii.edu</p>
+        <p class="mb-1">(808) 462-1799</p>
       </div>
       <div class="col">
-        <p class="mb-1 text-end">{{ site.data.bio.basics.location.address }}</p>
-        <p class="mb-1 text-end">{{ site.data.bio.basics.location.city }}, {{ site.data.bio.basics.location.region }} {{ site.data.bio.basics.location.postalCode }} {{ site.data.bio.basics.location.countryCode }}</p>
-        <p class="mb-1 text-end">{{ site.data.bio.basics.phone }}</p>
+        <p class="mb-1 text-end">Aiea, Hawaii 96701</p>
       </div>
     </div>
 
+    <!-- Interests -->
     <div class="row pt-4 align-items-center">
       <div class="col-lg-3">
         <h1 class="display-6 text-start m-0">Interests</h1>
       </div>
       <div class="col-lg-9">
-        <p class="m-0">
-          {% for entry in site.data.bio.interests %}
-          {{ entry.name }}
-          <!-- Unfortunately the following must all be on a single line so that there are no spaces before the commas. -->
-          {% if entry.keywords and entry.keywords.size > 0 %}({% for keyword in entry.keywords %}{{ keyword }}{% if forloop.last != true %},{% endif %}{% endfor %}){% endif %}{% if forloop.last != true %}, {% endif %}
-          {% endfor %}
-        </p>
+        <p class="m-0">Computer Engineering, Programming, Electronics</p>
       </div>
     </div>
 
-    {% if site.data.bio.skills %}
+    <!-- Skills -->
     <div class="row pt-4 align-items-center">
       <div class="col-lg-3">
         <h1 class="display-6 text-start m-0">Skills</h1>
       </div>
       <div class="col-lg-9">
-        {% for entry in site.data.bio.skills %}
-          <p class="m-0">
-            <b>{{ entry.name }}:</b>
-              {% for keyword in entry.keywords %}
-                {{ keyword }}{% if forloop.last != true %}, {% endif %}
-              {% endfor %}
-          </p>
-        {% endfor %}
+        <p class="m-0">
+          <b>Programming Languages:</b> C/C++, Python, JavaScript, HTML, CSS, MATLAB, Assembly<br>
+          <b>Computer Aided Design:</b> Autodesk EAGLE, Vivado, JetBrains IDEs<br>
+          <b>Other:</b> Object-Oriented Programming, Data Structures, Algorithm Design, User Experience Design, Functional Programming<br>
+          <b>JS Frameworks:</b> React, Angular, Vue
+        </p>
       </div>
     </div>
-    {% endif %}
 
-    {% if site.data.bio.education %}
+    <!-- Education -->
     <div class="row pt-4 align-items-start">
       <div class="col-lg-3">
         <h1 class="display-6 text-start m-0">Education</h1>
       </div>
       <div class="col-lg-9">
-        {% for entry in site.data.bio.education %}
-          <div class="row mb-3">
-            <div class="col-9">
-              <p class="m-0"><b>{{ entry.institution }}</b></p>
-              <p class="m-0">{{ entry.studyType }}, {{ entry.area }}</p>
-              {% if entry.courses %}
-                <ul>
-                  {% for course in entry.courses %}
-                    <li>{{ course }}</li>
-                  {% endfor %}
-                </ul>
-              {% endif %}
-            </div>
-          <div class="col-3">
-            <p class="m-0 text-end">
-              {% if entry.startDate %}
-                {{ entry.startDate | slice: 0,4 }}
-              {% endif %}
-              {% if entry.startDate and entry.startDate != '' and entry.endDate and entry.endDate != '' %}
-              -
-              {% endif %}
-              {% if entry.endDate %}
-                {% if entry.endDate != "Present" %}
-                  {{ entry.endDate | slice: 0,4 }}
-                {% else %}
-                  {{ entry.endDate }}
-                {% endif %}
-              {% endif %}
-            </p>
-          </div>
-        </div>
-        {% endfor %}
-      </div>
-    </div>
-    {% endif %}
-
-    {% if site.data.bio.work %}
-    <div class="row pt-4 align-items-start">
-      <div class="col-lg-3">
-        <h1 class="display-6 text-start m-0">Work</h1>
-      </div>
-      <div class="col-lg-9">
-        {% for entry in site.data.bio.work %}
-          <div class="row mb-3">
-            <div class="col-9">
-              <p class="mb-0"><b>{{ entry.position }}, {{ entry.company }}</b></p>
-              <p class="mb-0"><a href="{{ entry.website }}">{{ entry.website | remove: "http://" | remove: "https://" }}</a></p>
-              <p class="mb-0">{{ entry.summary }}</p>
-              {% if entry.highlights %}
-                <ul>
-                  {% for highlight in entry.highlights %}
-                    <li>{{ highlight }}</li>
-                  {% endfor %}
-                </ul>
-              {% endif %}
-            </div>
-            <div class="col-3">
-              <p class="m-0 text-end">
-                {% if entry.startDate %}
-                  {{ entry.startDate | slice: 0,4 }}
-                {% endif %}
-                {% if entry.startDate and entry.startDate != '' and entry.endDate and entry.endDate != '' %}
-                -
-                {% endif %}
-                {% if entry.endDate %}
-                {% if entry.endDate != "Present" %}
-                  {{ entry.endDate | slice: 0,4 }}
-                {% else %}
-                  {{ entry.endDate }}
-                {% endif %}
-              {% endif %}
-              </p>
-            </div>
-          </div>
-        {% endfor %}
-      </div>
-    </div>
-    {% endif %}
-
-    {% if site.data.bio.volunteer %}
-      <div class="row pt-4 align-items-start">
-        <div class="col-lg-3">
-          <h1 class="display-6 text-start m-0">Activities</h1>
-        </div>
-        <div class="col-lg-9">
-          {% for entry in site.data.bio.volunteer %}
-          <div class="row mb-3">
-            <div class="col-9">
-              <p class="mb-0"><b>{{ entry.position }}{% if entry.organization %}, {{ entry.organization }}{% endif %}</b></p>
-              <p class="mb-0"><a href="{{ entry.website }}">{{ entry.website | remove: "http://" | remove: "https://" }}</a></p>
-              <p class="mb-0">{{ entry.summary }}</p>
-              {% if entry.highlights %}
-                <ul>
-                {% for highlight in entry.highlights %}
-                  <li>{{ highlight }}</li>
-                {% endfor %}
-              </ul>
-              {% endif %}
-            </div>
-            <div class="col-3">
-              <p class="m-0 text-end">
-                {% if entry.startDate %}
-                  {{ entry.startDate | slice: 0,4 }}
-                {% endif %}
-                {% if entry.startDate and entry.startDate != '' and entry.endDate and entry.endDate != '' %}
-                -
-                {% endif %}
-                {% if entry.endDate %}
-                  {% if entry.endDate != "Present" %}
-                    {{ entry.endDate | slice: 0,4 }}
-                  {% else %}
-                    {{ entry.endDate }}
-                  {% endif %}
-                {% endif %}
-              </p>
-            </div>
-          </div>
-          {% endfor %}
-        </div>
-      </div>
-    {% endif %}
-
-    {% if site.data.bio.awards %}
-    <div class="row pt-4 align-items-start">
-      <div class="col-lg-3">
-        <h1 class="display-6 text-start m-0">Awards</h1>
-      </div>
-
-      <div class="col-lg-9">
-      {% for entry in site.data.bio.awards %}
         <div class="row mb-3">
           <div class="col-9">
-            <p class="mb-0">
-              <b>{{ entry.title }}</b>, {{ entry.awarder }}
-            </p>
-            <p class="mb-0">{{ entry.summary }}</p>
+            <p class="m-0"><b>University of Hawai'i at Mānoa</b></p>
+            <p class="m-0">M.S. - Computer Engineering</p>
+            <ul>
+              <li>Power Systems</li>
+              <li>Electromagnetic Fields and Waves</li>
+              <li>Systems and Signal Analysis</li>
+              <li>Microelectronic Circuits I</li>
+              <li>Object-Oriented Programming</li>
+              <li>Digital Design</li>
+              <li>Algorithms</li>
+              <li>WiFi Security</li>
+              <li>Computer Security</li>
+            </ul>
           </div>
           <div class="col-3">
-            <p class="m-0 text-end">
-              {{ entry.date}}
-            </p>
+            <p class="m-0 text-end">December 2024</p>
           </div>
         </div>
-        {% endfor %}
       </div>
     </div>
-    {% endif %}
 
-    {% if site.data.bio.references %}
-    <div class="row pt-4 align-items-center">
+    <!-- Work Experience -->
+    <div class="row pt-4 align-items-start">
       <div class="col-lg-3">
-        <h1 class="display-6 text-start m-0">References</h1>
+        <h1 class="display-6 text-start m-0">Work Experience</h1>
       </div>
-
       <div class="col-lg-9">
-        <p class="m-0">
-          {% for entry in site.data.bio.references %}
-            {{ entry.name }}
-            {% if entry.reference and entry.reference.size > 0 %}
-              <em>{{ entry.reference }}</em>
-            {% endif %}
-          {% endfor %}
-        </p>
+        <div class="row mb-3">
+          <div class="col-9">
+            <p class="mb-0"><b>Network Security Project</b></p>
+            <p class="mb-0">Manoa, Hawaii</p>
+            <p class="mb-0">Conducted research on vulnerabilities in WPA2 network security.</p>
+            <p class="mb-0">Practiced deauthentication attacks and password cracking techniques.</p>
+            <p class="mb-0">Presented a poster presentation to evaluators.</p>
+          </div>
+          <div class="col-3">
+            <p class="m-0 text-end">January 2024 - May 2024</p>
+          </div>
+        </div>
+        <div class="row mb-3">
+          <div class="col-9">
+            <p class="mb-0"><b>Drone Programmer, Drone Simulator Project</b></p>
+            <p class="mb-0">Manoa, Hawaii</p>
+            <p class="mb-0">Utilized the ArduPilot Python library for mission planning, flight control, and data processing tasks.</p>
+            <p class="mb-0">Helped coordinate smooth implementation and utilization of software and custom-built computer applications.</p>
+          </div>
+          <div class="col-3">
+            <p class="m-0 text-end">August 2023 - December 2023</p>
+          </div>
+        </div>
+        <div class="row mb-3">
+          <div class="col-9">
+            <p class="mb-0"><b>Apprentice Electrician, Smart Campus Energy Lab (SCEL)</b></p>
+            <p class="mb-0">Manoa, Hawaii</p>
+            <p class="mb-0">Designed a printable circuit board (PCB) with AutoDesk EAGLE using integrated sensor modules to occupy less surface area.</p>
+            <p class="mb-0">Assembled electronic components onto printed circuit boards according to schematics.</p>
+          </div>
+          <div class="col-3">
+            <p class="m-0 text-end">January 2023 - May 2023</p>
+          </div>
+        </div>
       </div>
     </div>
-    {% endif %}
+
   </div>
 </div>
