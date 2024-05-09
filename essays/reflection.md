@@ -19,10 +19,10 @@ labels:
 
 ## II. Open Source Software Development
 <div style="display: flex; justify-content: center;">
-  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTighzl4KXJWJyka2BaR4_CzFSbYaGONVhpcqxADGgvfg&s" alt="Git" style="height: 200px; margin-right: 10px;">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg" alt="Bootstrap" style="height: 200px; margin-right: 10px;">
-  <img src="https://dmtgy0px4zdqn.cloudfront.net/images/brand/meteor-logo-blue-orange.png" alt="Meteor" style="height: 200px; margin-right: 10px;">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png" alt="React" style="height: 200px;">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTighzl4KXJWJyka2BaR4_CzFSbYaGONVhpcqxADGgvfg&s" alt="Git" style="height: 75px; margin-right: 10px;">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg" alt="Bootstrap" style="height: 75px; margin-right: 10px;">
+  <img src="https://dmtgy0px4zdqn.cloudfront.net/images/brand/meteor-logo-blue-orange.png" alt="Meteor" style="height: 75px; margin-right: 10px;">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png" alt="React" style="height: 75px;">
 </div>
 
 
@@ -31,8 +31,8 @@ labels:
 
 ## III. Development Environments
 <div style="display: flex; justify-content: center;">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/IntelliJ_IDEA_Icon.svg/2048px-IntelliJ_IDEA_Icon.svg.png" alt="Intellij" style="height: 200px; margin-right: 10px;>
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/GitHub_Invertocat_Logo.svg/200px-GitHub_Invertocat_Logo.svg.png" alt="Github" style="height: 200px; margin-right: 10px;>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/IntelliJ_IDEA_Icon.svg/2048px-IntelliJ_IDEA_Icon.svg.png" alt="Intellij" style="height: 75px; margin-right: 10px;>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/GitHub_Invertocat_Logo.svg/200px-GitHub_Invertocat_Logo.svg.png" alt="Github" style="height: 75px; margin-right: 10px;>
 </div>
 
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Development environments refer to the setup and tools used by developers to write, test, and debug software. They play a crucial role in the efficiency and effectiveness of the development process, providing a controlled and consistent platform for coding and testing./
