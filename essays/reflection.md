@@ -19,10 +19,10 @@ labels:
 
 ## II. Open Source Software Development
 <div style="display: flex; justify-content: center;">
-  <img src="https://banner2.cleanpng.com/20180425/bxe/kisspng-github-repository-version-control-source-code-network-node-5ae13f80e99f63.3541394415247112969569.jpg" alt="Git" style="height: 200px; margin-right: 10px;">
-  <img src="https://banner2.cleanpng.com/20180808/jfv/kisspng-bootstrap-scalable-vector-graphics-clip-art-logo-formation-bootstrap-apollo-formation-l-amp-apos-5b6a8996b4c3d9.0756896415337086947404.jpg" alt="Bootstrap" style="height: 200px; margin-right: 10px;">
-  <img src="https://banner2.cleanpng.com/20180618/cha/kisspng-meteor-react-5b280bc0adaa91.0872009015293511047114.jpg" alt="Meteor" style="height: 200px; margin-right: 10px;">
-  <img src="https://banner2.cleanpng.com/20180328/fsw/kisspng-react-javascript-library-angularjs-web-application-framework-5abc50dbe7c3f6.4423968915222909079493.jpg" alt="React" style="height: 200px;">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTighzl4KXJWJyka2BaR4_CzFSbYaGONVhpcqxADGgvfg&s" alt="Git" style="height: 200px; margin-right: 10px;">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg" alt="Bootstrap" style="height: 200px; margin-right: 10px;">
+  <img src="https://dmtgy0px4zdqn.cloudfront.net/images/brand/meteor-logo-blue-orange.png" alt="Meteor" style="height: 200px; margin-right: 10px;">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png" alt="React" style="height: 200px;">
 </div>
 
 
@@ -31,8 +31,8 @@ labels:
 
 ## III. Development Environments
 <div style="display: flex; justify-content: center;">
-  <img src="https://banner2.cleanpng.com/20180913/uto/kisspng-intellij-idea-jetbrains-integrated-development-env-5b9a70df9dd6c3.3468850615368480956465.jpg" alt="Intellij" style="height: 200px; margin-right: 10px;>
-  <img src="https://banner2.cleanpng.com/20180711/iqy/kisspng-github-computer-icons-github-logo-5b459a3d238b60.4061479515312881251456.jpg" alt="Github" style="height: 200px; margin-right: 10px;>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/IntelliJ_IDEA_Icon.svg/2048px-IntelliJ_IDEA_Icon.svg.png" alt="Intellij" style="height: 200px; margin-right: 10px;>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/GitHub_Invertocat_Logo.svg/200px-GitHub_Invertocat_Logo.svg.png" alt="Github" style="height: 200px; margin-right: 10px;>
 </div>
 
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Development environments refer to the setup and tools used by developers to write, test, and debug software. They play a crucial role in the efficiency and effectiveness of the development process, providing a controlled and consistent platform for coding and testing./
@@ -40,14 +40,6 @@ labels:
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Development environments are essential not only for web development but also for software development in general. They are used in various fields such as mobile app development, game development, and scientific computing. The principle of setting up a development environment is an important skill that we can apply across different types of software projects.
 
 ## IV. Agile Project Management
-<div style="display: flex; justify-content: center;">
-  <div style="flex: 1; height: 200px; margin-right: 5px; overflow: hidden;">
-      <div style="width: 400px; height: 200px; background-image: url('https://t4.ftcdn.net/jpg/04/95/67/43/360_F_495674376_PhvXhEgYAQpclHdTjlFIWymH31eUkZYY.jpg'); background-position: center; background-size: cover;"></div>
-    </div>
-  <img src="https://i.pinimg.com/474x/a0/bc/9f/a0bc9ff9356d730cc9d88703fed0600d.jpg" alt="vs" style="flex: 0.5; height: 100px; margin: 0 5px;">
-  <img src="https://p7.hiclipart.com/preview/61/949/106/running-computer-icons-clip-art-run-quickly.jpg" alt="Agile" style="flex: 1; height: 200px; margin-left: 5px;">
-</div>
-
 
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Agile project management is an iterative and flexible approach to software development that emphasizes collaboration, responsiveness, and delivering working software in short cycles known as iterations. It contrasts with traditional waterfall methodologies by prioritizing adaptability and continuous improvement over tight planning and documentation./
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The Agile methodology that we practiced during ICS 314 was Issue Driven Project Management (IDPM), which is a variant of Agile Project Management tailored for managing software development projects. IDPM focuses on breaking down project tasks into issues, prioritizing them based on immediate needs./
