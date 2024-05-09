@@ -31,13 +31,14 @@ labels:
 
 ## III. Development Environments
 <div style="display: flex; justify-content: center;">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/IntelliJ_IDEA_Icon.svg/2048px-IntelliJ_IDEA_Icon.svg.png" alt="Intellij" style="height: 75px; margin-right: 10px;>
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/GitHub_Invertocat_Logo.svg/200px-GitHub_Invertocat_Logo.svg.png" alt="Github" style="height: 75px; margin-right: 10px;>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/IntelliJ_IDEA_Icon.svg/2048px-IntelliJ_IDEA_Icon.svg.png" alt="Intellij" style="height: 75px; margin-right: 10px;">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/GitHub_Invertocat_Logo.svg/200px-GitHub_Invertocat_Logo.svg.png" alt="Github" style="height: 75px; margin-right: 10px;">
 </div>
 
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Development environments refer to the setup and tools used by developers to write, test, and debug software. They play a crucial role in the efficiency and effectiveness of the development process, providing a controlled and consistent platform for coding and testing./
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;For ICS 314, we mainly used local development environments, where code is developed and tested on individual machines using tools like text editors, IDEs (Integrated Development Environments), and local servers. Our IDE of choice was Intellij IDEA by JetBrains, the leading Java development IDE. We also used GitHub, a cloud-based development environment that allowed us to collaboratively code and test from anywhere./
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Development environments are essential not only for web development but also for software development in general. They are used in various fields such as mobile app development, game development, and scientific computing. The principle of setting up a development environment is an important skill that we can apply across different types of software projects.
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Development environments refer to the setup and tools used by developers to write, test, and debug software. They play a crucial role in the efficiency and effectiveness of the development process, providing a controlled and consistent platform for coding and testing.
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;For ICS 314, we mainly used local development environments, where code is developed and tested on individual machines using tools like text editors, IDEs (Integrated Development Environments), and local servers. Our IDE of choice was Intellij IDEA by JetBrains, the leading Java development IDE. We also used GitHub, a cloud-based development environment that allowed us to collaboratively code and test from anywhere.
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Development environments are essential not only for web development but also for software development in general. They are used in various fields such as mobile app development, game development, and scientific computing. The principle of setting up a development environment is an important skill that we can apply across different types of software projects.
+
 
 ## IV. Agile Project Management
 
