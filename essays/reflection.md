@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: "Design Patterns: Composing Code"
+title: "To Web Development and Beyond"
 # All dates must be YYYY-MM-DD format!
 date: 2024-05-09
 published: true
