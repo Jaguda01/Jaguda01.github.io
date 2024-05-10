@@ -14,81 +14,73 @@ summary: "Worked with a group to build a college-freindly recipe website called 
 
 # Flavor Forge
 
-In the Spring 2024 semester, my group of classmates teamed up with the goal of creating a website with budget-friendly recipes for college students. If you want to learn more about the source code and how it works, you can visit our organization's GitHub page at [https://github.com/Flavor-Forge/flavor-forge](https://github.com/Flavor-Forge/flavor-forge).\
-
-<br/>
+In the Spring 2024 semester, my group of classmates teamed up with the goal of creating a website with budget-friendly recipes for college students. If you want to learn more about the source code and how it works, you can visit our organization's GitHub page at [https://github.com/Flavor-Forge/flavor-forge](https://github.com/Flavor-Forge/flavor-forge).
 
 ## Overview
 
 ### Home Page
 
-Our homepage serves as the central hub of Flavor Forge. Here's what you can find:
+The Flavor Forge homepage is your starting point for culinary exploration. It provides a brief overview of our platform's mission, showcases a featured recipe to inspire your next cooking adventure, and offers easy navigation to other sections of the website.
 
-- **Main Image**: An image of chefs meant to inspire the user.
-- **Website Information**: A brief overview of Flavor Forge and its mission.
-- **Featured Recipe**: A spotlight on one of our top recipes to inspire your next cooking adventure.
-- **Navigation Bar**: Quick access to other sections of the website.
+<center>
+<img src="https://flavor-forge.github.io/images/updatedhomepage.png" alt="Flavor Forge Homepage" height="300">
+</center>
 
-![Flavor Forge Homepage](https://flavor-forge.github.io/images/updatedhomepage.png)
+### Recipe Page 
 
-### Recipe Page
+Each recipe is presented with details including its name, user ratings, description, ingredients, instructions, and a visual representation of the final dish. User's can edit recipes that they created, and other users can give the recipe a star rating from 1 to 5.
 
-The Recipe Page displays the description, ingredients, and instructions for each recipe. It also allows users to submit ratings (0-5 stars) and edit their own recipes.
-
-- **Recipe Name**: Clearly labeled at the top for easy reference.
-- **Rating**: Users can rate the recipe from 0 to 5 stars.
-- **Description**: Learn about the dish and what makes it special.
-- **Ingredients**: A list of all the ingredients you'll need.
-- **Instructions**: Step-by-step guide to cooking the perfect dish.
-- **Image**: Visual representation of the final product.
-
-![Flavor Forge Recipe Page](https://flavor-forge.github.io/images/updatedrecipepage.png)
+<center>
+<img src="https://flavor-forge.github.io/images/updatedrecipepage.png" alt="Flavor Forge Recipe Page" height="300">
+</center>
 
 ### Recipe List Page
 
-Browse through our collection of recipes with ease on the Recipe List Page. Each card provides a preview of what each recipe has to offer.
+Browse through our extensive collection of recipes on the Recipe List Page. Here, you'll find recipe cards featuring dish names, images, and brief descriptions. Use the filter bar to search for specific recipes.
 
-- **Recipe Cards**: Each card displays the dish name, image, and description.
-- **Recipe Link**: Clicking on the name leads to the page associated with the recipe.
-- **Filter Bar**: Easily search or sort recipes.
-
-![Flavor Forge Recipe List Page](https://flavor-forge.github.io/images/recipe-page.png)
+<center>
+<img src="https://flavor-forge.github.io/images/recipe-page.png" alt="Flavor Forge Recipe List Page" height="300">
+</center>
 
 ### Profile Page
 
-Customize your Flavor Forge experience on your Profile Page.
+Make Flavor Forge your own on the Profile Page. Here, you can customize your profile with a picture and details, showcase your culinary creations, and keep track of your favorite recipes.
 
-- **Profile Picture**: Personalize your profile with a picture.
-- **Profile Name**: Your unique identifier on Flavor Forge.
-- **User Information**: Optional details to share with the community.
-- **Posted Recipes**: Showcase your culinary creations.
-- **Favorite Recipes**: Keep track of recipes you love.
-
-![Flavor Forge Profile Page](https://flavor-forge.github.io/images/profile-page.png)
+<center>
+<img src="https://flavor-forge.github.io/images/profile-page.png" alt="Flavor Forge Profile Page" height="300">
+</center>
 
 ### Update Profile Page
 
-If you ever want to change your information, Flavor Forge has you covered:
+Keep your profile up-to-date and engaging with the Update Profile Page. Easily edit your information, upload a new picture, and share a bit about yourself with the Flavor Forge community.
 
-- **Update Name**: Simply type your new name to change.
-- **Biographical Statement**: Give a short bio about yourself, tell us how you started cooking or what your favorite foods are.
-- **Picture URL**: Simply enter a link to a picture online to make it your personal avatar.
-
-![Flavor Forge Update Profile Page](https://flavor-forge.github.io/images/updateprofilepage.png)
+<center>
+<img src="https://flavor-forge.github.io/images/updateprofilepage.png" alt="Flavor Forge Update Profile Page" height="300">
+</center>
 
 ### Add Recipe Page
 
-This page allows you to add your recipe for the community to see. Get started now and if you’re rated highly enough you might even be featured on the Home Page!
+Join our community of food enthusiasts by sharing your own recipes on the Add Recipe Page. Simply fill out the details, upload a picture of your dish, and give it an initial rating to get started.
 
-- **Name**: Here you can list the name of the dish.
-- **Description**: Give a short description for those who have never tried it before.
-- **Ingredient Name**: Add the ingredients.
-- **Quantity**: List the quantity of the ingredient to add.
-- **Price**: Tell people how much this ingredient costs so they can see how much they save.
-- **Instructions**: Here you can tell people how to make the dish, give them a step-by-step tutorial.
-- **Picture**: Submit a link to a picture of your dish to add it to the recipe.
-- **Rating**: Be the first one to give yourself a rating, be sure to be honest.
+<center>
+<img src="https://flavor-forge.github.io/images/addrecipepage.png" alt="Flavor Forge Add Recipe Page" height="300">
+</center>
 
-![Flavor Forge Add Recipe Page](https://flavor-forge.github.io/images/addrecipepage.png)
+## My Contributions
 
+- **Recipe Page**: The very first thing that I implemented was a mockup for the recipe page. Here is what it initially looked like when I first got it to work.
+<center>
+<img src="img/initialrecipepage.png">
+</center>
 
+- **Navbar**: The next issue that I tackled was the Navbar. At this point we had no way to navigate the page, so it was an essential step towards the functionality of our website.
+- **Recipe List Page**: I the implemented the Recipe List Page, which took a bit of time to figure out. Here is a screenshot of the Discord message I sent to Angello Portello, one of my team members, when I finally got it to work.
+<center>
+<img src="img/image_2024-05-10_111046187.png">
+</center>
+
+- **Bug Fixes and Style Changes**: In addition to the two major pages and the navbar, I had many minor contributions to the project in terms of quality control in form of bug fixes and style changes. I also created the testcafe tests to ensure the functionality of our website.
+
+## What I Learned
+
+When working with a team, I learned that leadership and active communication are important aspects of Agile Project Management. When these two elements were absent, the project development became more of a grind than a sprint. Without leadership and communication, issues are assigned on a first come, first served basis, leaving the team members who are more eager to participate to fix most of the issues. Someone with a leadership role, like a project manager, would be able to delegate issues to those who are hesitant to take initiative and pick up new issues. I also learned that when using IDPM as a methodology, it is good practice to frequently push (reasonably) broken code and create a new issue based on that code instead of never pushing your code until it is perfect. In other words, frequent incremental updates are key for IDPM.
