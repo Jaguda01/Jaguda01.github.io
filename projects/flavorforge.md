@@ -70,13 +70,13 @@ Join our community of food enthusiasts by sharing your own recipes on the Add Re
 
 - **Recipe Page**: The very first thing that I implemented was a mockup for the recipe page. Here is what it initially looked like when I first got it to work.
 <center>
-<img src="img/initialrecipepage.png">
+<img src="../img/initialrecipepage.png">
 </center>
 
 - **Navbar**: The next issue that I tackled was the Navbar. At this point we had no way to navigate the page, so it was an essential step towards the functionality of our website.
 - **Recipe List Page**: I the implemented the Recipe List Page, which took a bit of time to figure out. Here is a screenshot of the Discord message I sent to Angello Portello, one of my team members, when I finally got it to work.
 <center>
-<img src="img/image_2024-05-10_111046187.png">
+<img src="../img/image_2024-05-10_111046187.png">
 </center>
 
 - **Bug Fixes and Style Changes**: In addition to the two major pages and the navbar, I had many minor contributions to the project in terms of quality control in form of bug fixes and style changes. I also created the testcafe tests to ensure the functionality of our website.
