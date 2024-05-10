@@ -24,7 +24,7 @@ In the Fall 2023 semester, I chose drone simulation as my junior project. Dr. Yi
 Here is the final Python script that I created to control the drone.
 
 ### finalmission.py
-```
+```python
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
