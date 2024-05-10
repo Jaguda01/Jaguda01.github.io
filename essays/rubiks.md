@@ -4,7 +4,7 @@ type: essay
 title: "From Rubik's to Code: My Engineering Journey"
 # All dates must be YYYY-MM-DD format!
 date: 2024-01-25
-published: true
+published: false
 labels:
   - Software Engineering
   - Background
