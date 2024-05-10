@@ -4,7 +4,7 @@ type: project
 image: img/eviction.jpg
 title: "Homelessness In Hawaii"
 date: 2023
-published: true
+published: false
 labels:
   - Documentary
   - Interviewing
