@@ -70,17 +70,18 @@ Join our community of food enthusiasts by sharing your own recipes on the Add Re
 
 - **Recipe Page**: The very first thing that I implemented was a mockup for the recipe page. Here is what it initially looked like when I first got it to work.
 <center>
-<img src="../img/initialrecipepage.png">
+<img src="../img/initialrecipepage.png" alt="Initial Recipe Page" height="300">
 </center>
 
 - **Navbar**: The next issue that I tackled was the Navbar. At this point we had no way to navigate the page, so it was an essential step towards the functionality of our website.
 - **Recipe List Page**: I the implemented the Recipe List Page, which took a bit of time to figure out. Here is a screenshot of the Discord message I sent to Angello Portello, one of my team members, when I finally got it to work.
 <center>
-<img src="../img/image_2024-05-10_111046187.png">
+<img src="../img/image_2024-05-10_111046187.png" alt="Recipe List Message" height="300">
 </center>
 
 - **Bug Fixes and Style Changes**: In addition to the two major pages and the navbar, I had many minor contributions to the project in terms of quality control in form of bug fixes and style changes. I also created the testcafe tests to ensure the functionality of our website.
 
 ## What I Learned
 
-When working with a team, I learned that leadership and active communication are important aspects of Agile Project Management. When these two elements were absent, the project development became more of a grind than a sprint. Without leadership and communication, issues are assigned on a first come, first served basis, leaving the team members who are more eager to participate to fix most of the issues. Someone with a leadership role, like a project manager, would be able to delegate issues to those who are hesitant to take initiative and pick up new issues. I also learned that when using IDPM as a methodology, it is good practice to frequently push (reasonably) broken code and create a new issue based on that code instead of never pushing your code until it is perfect. In other words, frequent incremental updates are key for IDPM.
+- **Team Management**: When working with a team, I learned that leadership and active communication are important aspects of Agile Project Management. When these two elements were absent, the project development became more of a grind than a sprint. Without leadership and communication, issues are assigned on a first come, first served basis, leaving the team members who are more eager to participate to fix most of the issues. Someone with a leadership role, like a project manager, would be able to delegate issues to those who are hesitant to take initiative and pick up new issues. I also learned that when using IDPM (Issue Driven Project Management) as a methodology, it is good practice to frequently push (reasonably) broken code and create a new issue based on that code instead of never pushing your code until it is perfect. In other words, frequent incremental updates are key for IDPM.
+- **Full Stack Development**: Developing a fully deployed website is a challenging, but rewarding endeavor. I learned more about how to handle back-end databases as well as how to effectively (or ineffectively) use them on the front-end. I look forward to continue working on web and app development and learn from the many mistakes I'll make along the way.
