@@ -13,7 +13,13 @@ labels:
 summary: "I was tasked to design and operate missions on a simulated drone using Ardupilot libraries"
 ---
 
+# Drone Simulation Project
+
 In the Fall 2023 semester, I chose drone simulation as my junior project. Dr. Yingfei Dong led the project, overseeing myself and a handful of other students. We used a virtual machine to run Ubuntu, which would be our working environment. The SITL simulator was used to simulate the flight paths of the drone. We would use Python scripts to run automated missions on the drone, where I successfully learned how to program a drone's flight pattern.
+
+<div>
+	<img src="https://ardupilot.org/dev/_images/sitl.jpg">
+</div>
 
 Here is the final Python script that I created to control the drone.
 
