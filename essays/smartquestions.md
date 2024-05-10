@@ -37,6 +37,8 @@ Examining the responses to the smart question, we observe how they align with th
   <img width="700px" class="rounded" src="../img/smartanswer1.png" alt="Smart Smart Answer Image">
 </div>
 
+<br>
+
 Positive Aspects:
 - **Comprehensive Solutions:** The answer provides multiple solutions to the user's problem, covering various scenarios and preferences.
 - **Clarity:** Each solution is explained clearly, making it easy for the user to understand and implement.
@@ -61,6 +63,8 @@ Positive Aspects:
   <img width="700px" class="rounded" src="../img/smartanswer3.png" alt="Smart Answer Image">
 </div>
 
+<br>
+
 Positive Aspects:
 - **Direct Solution:** The answer provides a straightforward solution to the user's question.
 
@@ -75,6 +79,8 @@ The community's engagement and the quality of responses reflect the collaborativ
 <div align="center">
   <img width="700px" class="rounded" src="../img/notsmartquestion.png" alt="Not Smart Question Image">
 </div>
+
+<br>
 
 **Summary:**
 The question revolves around the user's preparation for the JEE exam and their request for assistance in analyzing patterns and probabilities in previous year question papers. However, the question lacks specificity, providing vague criteria for analysis and making an overwhelming request for multiple aspects.
