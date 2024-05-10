@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/flavorforgelogo.png
+image: img/image_2024-05-10_104710518.png
 title: "Flavor Forge Recipe App"
 date: 2023
 published: true
